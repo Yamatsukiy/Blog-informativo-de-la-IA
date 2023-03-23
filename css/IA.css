@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  ;
+}
+
+body {
+  background: #7b4397;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.marca {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 0px 0px 17px rgb(253, 253, 253);
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+  display: block;
+  font-weight: 20px;
+  border-radius: 0.5px;
+  transition: 0.2s;
+}
+
+.menu .navbar ul li a:hover {
+  color: #ff0101;
+}
+
+/* @media only screen and (max-width: 1320px) 
+  header{
+    padding: 0 50px;
+  }*/
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-txt {
+  width: 60%;
+}
+
+.header-txt h1 {
+  font-size: 38px;
+  line-height: 100px;
+  color: white;
+  font-weight: 1000;
+  margin-bottom: 50px;
+  position: absolute;
+  text-shadow: 0px 0px 17px rgb(253, 253, 253);
+}
+
+.header-txt p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin-bottom: 35px;
+  margin-top: 100px;
+}
+
+.header-img {
+  width: 5%;
+  margin-top: 100px;
+  margin: 110px;
+}
+
+.lap {
+  width: 400px;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 13px 35px;
+  color: white;
+  border-radius: 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(131,45,153,1) 33%,
+    rgba(193,58,143,1) 69%,
+    rgba(196,37,116,1) 100%
+  );
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 0px 17px rgb(253, 253, 253);
+}
+
+.services {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.info {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 2px 45px;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(153, 7, 158);
+  margin-bottom: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
